@@ -1,0 +1,20 @@
+export type Scholarship = {
+  id: string;
+  scholarship_name: string;
+  scholarship_description?: string;
+  scholarship_amount?: number;
+  scholarship_deadline?: string;
+  scholarship_url?: string;
+  scholarship_image?: string;
+  scholarship_status?: string;
+  scholarship_category?: string;
+  scholarship_min_gpa?: number;
+  scholarship_min_education_level?: string;
+  scholarship_country?: string;
+  scholarship_gender_looking_for?: string;
+  scholarship_max_age?: number;
+  tags?: string[];
+  recommended?: boolean;
+  created_at?: string;
+  updated_at?: string;
+};

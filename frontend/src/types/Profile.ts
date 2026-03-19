@@ -1,0 +1,25 @@
+export type Profile = {
+  id: string;
+  full_name: string | null;
+  avatar_url?: string | null;
+  role?: string | null;
+  date_of_birth?: string | null;
+  gender?: string | null;
+  nationality?: string | null;
+  marital_status?: string | null;
+  race?: string | null;
+  current_education?: string | null;
+  language_proficiency?: string[] | null;
+  preferred_industries?: string[] | null;
+  technical_skills?: string[] | null;
+  application_data?: unknown;
+  interests?: string | null;
+  field_of_study?: string | null;
+  country?: string | null;
+  gpa?: number | null;
+  age?: number | null;
+  last_login_at?: string | null;
+  created_at?: string | null;
+  updated_at?: string | null;
+  recommendations?: string[] | null;
+};
